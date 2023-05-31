@@ -4,12 +4,10 @@ Small powershell script to create ISO payloads by using DLL sideloading
 and then LNK file to trigger the payload execution.
 
 ## Requirements
-pyminizip:
-'''
-pip install pyminizip
-'''
-Also [PackMyPayload](https://github.com/mgeeky/PackMyPayload) by Mariusz Banach / mgeeky.
-The script is included with the project files, you do not need to install it.
+Use the ```pip install -r requirements.txt``` command to install all of 
+the Python modules and packages listed in your requirements.txt file
+Also [PackMyPayload](https://github.com/mgeeky/PackMyPayload) by Mariusz Banach / mgeeky script is used, but it 
+is included with the project files, you do not need to install it.
 
 ## High-Level Script Overview
 
