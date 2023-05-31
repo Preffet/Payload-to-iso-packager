@@ -49,3 +49,10 @@ Here:
 - **version.dll** is your payload script (you have to rename it to "version.dll")
 - **readme.txt.lnk** is the LNK file that will trigger the payload process. You can rename it if you wish.
 - **Updates.iso** is the final payload containing all pieces, you can rename it if you wish.
+
+
+------------------------------------------------------------
+## Disclaimer
+
+This application was developed as part of my learning journey around DLL sideloading and is intended solely for educational purposes.
+
