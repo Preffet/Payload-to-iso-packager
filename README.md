@@ -16,19 +16,19 @@ The script is included with the project files, you do not need to install it.
 --------------------------------------------------------
 ## High-Level Script Overview
 
-**1.** DLL file, an EXE file, and a LNK file are provided as inputs.
+**1.** DLL file, an EXE file, and a LNK file are provided as inputs.&nbsp;
 **2.** Check if the necessary input parameters are provided, and also if the provided LNK
-   file has the correct extension.
+   file has the correct extension.&nbsp;
 **3.** If all inputs are correct, create a shortcut file (.lnk) with the given parameters using
    Windows Script Host (WSH) COM object. This shortcut file opens a command prompt and runs
-   the EXE file specified in the parameters.
+   the EXE file specified in the parameters.&nbsp;
 **4.** Create two directories if they don't exist yet: "Payloads" and "Output". The former is used to store 
-   the input files (DLL, EXE, LNK), and the latter is used to store the output ISO file.
-**5.** Copy the input files (DLL, EXE, LNK) to the "Payloads" directory.
+   the input files (DLL, EXE, LNK), and the latter is used to store the output ISO file.&nbsp;
+**5.** Copy the input files (DLL, EXE, LNK) to the "Payloads" directory.&nbsp;
 **6.** After all the files are in place, package these files into an ISO file.
-   The files "OneDriveStandaloneUpdater.exe" and "version.dll" (your payload) are hidden in the ISO.
+   The files "OneDriveStandaloneUpdater.exe" and "version.dll" (your payload) are hidden in the ISO.&nbsp;
 **7.** If successful, display a message stating that the payload was created successfully, 
-   if an error occurs at any point in the process (such as Python or required dependencies not being installed), catch the error and display the error message.
+   if an error occurs at any point in the process (such as Python or required dependencies not being installed), catch the error and display the error message.&nbsp;
 
  --------------------------------------------------------  
 ## Usage
